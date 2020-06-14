@@ -38,95 +38,95 @@
 
   <form action="/">
     <fieldset>
-    <legend>Account data:</legend>
-    <label>Title:</label>
-    <label for="male">Mr.</label>
-    <input type="radio"
-      id="male"
-      name="gender"
-      checked
-      value="mr"
-    >
-    <label for="female">Ms.</label>
-    <input type="radio"
-      id="female"
-      name="gender"
-      value="ms"
-    >
-    <label for="unspec">Unspecified</label>
-    <input type="radio"
-      id="unspec"
-      name="gender"
-      value="unspecified"
-    > <br>
+      <legend>Account data:</legend>
+      <label>Title:</label>
+      <label for="male">Mr.</label>
+      <input type="radio"
+        id="male"
+        name="gender"
+        checked
+        value="mr"
+      >
+      <label for="female">Ms.</label>
+      <input type="radio"
+        id="female"
+        name="gender"
+        value="ms"
+      >
+      <label for="unspec">Unspecified</label>
+      <input type="radio"
+        id="unspec"
+        name="gender"
+        value="unspecified"
+      > <br>
 
-    <label for="name">*Name:</label>
-    <input type="text"
-      name="name"
-      id="name"
-      placeholder="Name"
-      required
-    >
-    <label for="surname">*Surname:</label>
-    <input type="text"
-      name="surname"
-      id="surname"
-      placeholder="Surname"
-      required
-    > <br> <br>
+      <label for="name">*Name:</label>
+      <input type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">*Surname:</label>
+      <input type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      > <br> <br>
 
-    <label for="email">*Email:</label>
-    <input type="email"
-      name="email"
-      id="email"
-      placeholder="Email"
-      required
-    > <br> <br>
+      <label for="email">*Email:</label>
+      <input type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      > <br> <br>
 
-    <label for="password">*Password:</label>
-    <input type="password"
-      name="password"
-      id="password"
-      placeholder="password"
-      required
-    > <br> <br>
+      <label for="password">*Password:</label>
+      <input type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+        required
+      > <br> <br>
 
-    <label for="password">*Confirm Password</label>
-    <input type="password"
-      name="password"
-      id="password"
-      placeholder="Confirm Password"
-      required
-    > <br> <br>
+      <label for="password">*Confirm Password</label>
+      <input type="password"
+        name="password"
+        id="password"
+        placeholder="Confirm Password"
+        required
+      > <br> <br>
 
-    <input type="checkbox"
+      <input type="checkbox"
+        name="confirm"
+        id="confirm"
+      >
+      <label for="confirm">
+        *You are required to agree to the
+        <a href="https//www.google.ro">term and conditions</a>
+      </label> <br>
+
+      <input type="checkbox"
       name="confirm"
       id="confirm"
-    >
-    <label for="confirm">
-      *You are required to agree to the
-      <a href="https//www.google.ro">term and conditions</a>
-    </label> <br>
+      >
+      <label for="confirm">
+        Agree to this
+        <i>and we will send you emails</i>
+      </label> <br>
 
-    <input type="checkbox"
-    name="confirm"
-    id="confirm"
-    >
-    <label for="confirm">
-      Agree to this
-      <i>and we will send you emails</i>
-    </label> <br>
+      <input type="checkbox"
+        name="confirm_gdpr"
+        id="confirm_gdpr"
+      >
+      <label for="confirm_gdpr">
+        GDPR generic consent?
+      </label> <br> <br>
 
-    <input type="checkbox"
-      name="confirm_gdpr"
-      id="confirm_gdpr"
-    >
-    <label for="confirm_gdpr">
-      GDPR generic consent?
-    </label> <br> <br>
-
-    <button type="submit">Create Account</button>
-    <button type="reset">Reset</button>
+      <button type="submit">Create Account</button>
+      <button type="reset">Reset</button>
     </fieldset>
   </form>
 
